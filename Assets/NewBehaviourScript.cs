@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    [SerializedField] private float _newNumber()
+    [SerializedField]
+    private float _newNumber()
     {
+        int New = 1;
     }
 }
