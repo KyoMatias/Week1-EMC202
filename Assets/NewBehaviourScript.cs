@@ -8,5 +8,6 @@ public class NewBehaviourScript : MonoBehaviour
     private float _newNumber()
     {
         int New = 1;
+        //This is a standalone Script
     }
 }
