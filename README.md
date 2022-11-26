@@ -36,14 +36,16 @@
 
 The Classes are inside the Scripts/Activity Folder. it contains a base class for a car in a prototype racing game, with its classes included (Tuner, Muscles, Exotics)
 
-<p align="center">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Each Class has tunes that defy how fast the car can go in a race, and wether or not it can compete against players with higher ranks.
+
+Tuner class has an example of a Mazda RX-7 FD3S
+Muscle class has an example of a Dodge Challenger SRT Demon
+Exotic class has an example of a Mclaren P1
 
 
 <!-- CONTACT -->
