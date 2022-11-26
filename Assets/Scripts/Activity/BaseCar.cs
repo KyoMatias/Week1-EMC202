@@ -24,6 +24,7 @@ public class BaseCar : MonoBehaviour
     protected float _turbo;// Car boost based on Turbo Multiplier.
     protected float _baseSpeed;// Car Base Speed.
     protected int _level;//Car Mods Level.
+    protected string _type;
 
     /*
      * Extra Components that are optional/Unlockable tunes.
@@ -45,20 +46,21 @@ public class BaseCar : MonoBehaviour
     public float Turbo => _baseSpeed * _turbo;// Turbo Multiplier
     public int Rating => EngineTune + ECUTune + BrakeTune + TireTune + TurboTune + TransmissionTune + SuspensionTune + NitrousLevel / 8;// Rating Computation.
 
-    public BaseCar(string name = "DefaultCar", int rating = 0, float hp = 100, int lvl = 1)//Creating parameters for the BaseCar Class.
+    public BaseCar(string name = "DefaultCar", int rating = 0, float hp = 100, int lvl = 1, string type = "Null")//Creating parameters for the BaseCar Class.
     {
      //some basic debug properties
      _name = name;//name 
      _rating = rating;//rating
      _horsePower = hp;//horsepower
      _level = lvl;//level
+     _type = type;
     }
 
     public string GetCarStats()//calls the car stats
     {
      var alpha = _name + _rating + _horsePower + _level;
      var properties =
-      $"{nameof(_name)}:{_name}, {nameof(_rating)}:{_rating},{nameof(_horsePower)}:{_horsePower},{nameof(_level)}:{_level}";
+      $"{nameof(_name)}:{_name}, {nameof(_rating)}:{_rating},{nameof(_horsePower)}:{_horsePower},{nameof(_level)}:{_level},{nameof(_type)}:{_type}";
 
      return properties;
     }

@@ -22,8 +22,8 @@ public class Logs
         //New Branch to WEEK2EMC Github Repository[]
         //Finish Readme.md[]
         
-        //Coffee Cups Count = 1
-        //Breakdowns = 2;
-        //Hair Pulls = 1;
+        //Coffee Cups Count = 2
+        //Breakdowns = 2
+        //Hair Pulls = 1
     }
 }
