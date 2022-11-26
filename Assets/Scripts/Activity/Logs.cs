@@ -19,7 +19,7 @@ public class Logs
         //Create the Muscle Class (inherit From Basecar.cs)[/]
         //Create the Exotic Class (inherit from Basecar.cs)[/]
         //New Branch to WEEK2EMC Github Repository[/]
-        //Finish Readme.md[]
+        //Finish Readme.md[/]
         
         //Coffee Cups Count = 2
         //Breakdowns = 2
