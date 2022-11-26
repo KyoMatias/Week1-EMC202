@@ -9,7 +9,6 @@ public class ClassManager : MonoBehaviour
     void Start()
     {
         var novice = new Novice(experience: 300, name: "Steven");
-        novice.Name = string.Empty;
         Debug.Log(novice.GetProperties());
     }
 
