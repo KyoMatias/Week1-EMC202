@@ -45,15 +45,15 @@ public class BaseCar : MonoBehaviour
     public float Nitrous => _baseSpeed + (_horsePower * NitrousLevel);// Nitrous Multiplier
     public float Turbo => _baseSpeed * _turbo;// Turbo Multiplier
     public int Rating => EngineTune + ECUTune + BrakeTune + TireTune + TurboTune + TransmissionTune + SuspensionTune + NitrousLevel / 8;// Rating Computation.
-
+    public int Level => EngineTune + ECUTune + BrakeTune + TireTune + TurboTune + TransmissionTune + SuspensionTune + NitrousLevel;
     public BaseCar(string name = "DefaultCar", int rating = 0, float hp = 100, int lvl = 1, string type = "Null")//Creating parameters for the BaseCar Class.
     {
      //some basic debug properties
-     _name = name;//name 
-     _rating = rating;//rating
-     _horsePower = hp;//horsepower
-     _level = lvl;//level
-     _type = type;
+     this._name = name;//name 
+     this._rating = rating;//rating
+     this._horsePower = hp;//horsepower
+     this._level = lvl;//level
+     this._type = type;
     }
 
     public string GetCarStats()//calls the car stats
